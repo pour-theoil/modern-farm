@@ -15,4 +15,4 @@ import { addPlant, usePlants } from "./field.js"
 
 const seed = addPlant(yearlyPlan);
 const plant = usePlants();
-console.log(plant)
+console.log(plant, seed)
