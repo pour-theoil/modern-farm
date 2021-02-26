@@ -1,8 +1,8 @@
 const asparagus = [
     {
-        Type: "Asparagus",
-        Height: 24,
-        Output: 4
+        type: "Asparagus",
+        height: 24,
+        output: 4
     }
 ]
 
