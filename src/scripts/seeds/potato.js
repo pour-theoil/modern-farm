@@ -1,10 +1,10 @@
-const potato = [
+const potato = 
     {
-        Type: "Potato",
-        Height: 32,
-        Output: 2
+        type: "Potato",
+        height: 32,
+        output: 2
     }
-]
+
 
 export const createPotato = () => {
     return potato

@@ -6,13 +6,13 @@ const yearlyPlan = createPlan();
 
 console.log("Yearly Plan", yearlyPlan)
 
-import { createAsparagus } from "./seeds/asparagus.js"
+// import { createAsparagus } from "./seeds/asparagus.js"
 
-const asparagusSeed = createAsparagus()
-console.log(asparagusSeed)
+// const asparagusSeed = createAsparagus()
+// console.log(asparagusSeed)
 
 import { addPlant, usePlants } from "./field.js"
 
-const seed = addPlant();
-const plant = usePlants(seed);
+const seed = addPlant(yearlyPlan);
+const plant = usePlants();
 console.log(plant)
